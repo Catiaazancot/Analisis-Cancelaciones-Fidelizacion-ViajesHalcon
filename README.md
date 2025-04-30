@@ -2,33 +2,33 @@
 
 ### Habilidades demostradas en este proyecto
 
-- Conciencia del impacto en negocio: foco constante en la mejora de la eficiencia operativa y aumento de la retención de clientes
+- **Conciencia del impacto en negocio**: foco constante en la mejora de la eficiencia operativa y aumento de la retención de clientes
 
-- Conocimiento profundo del negocio y enfoque estratégico: formulación de preguntas clave alineadas con los objetivos empresariales para transformar datos en decisiones
+- **Conocimiento profundo del negocio** y enfoque estratégico: **formulación de preguntas clave** alineadas con los objetivos empresariales para transformar datos en decisiones
 
-- Buenas prácticas en calidad, validación y gobernanza del dato: validación de consistencia, tratamiento de nulos y outliers, normalización y limpieza con enfoque en la integridad de la información
+- **Buenas prácticas en calidad, validación y gobernanza del dato**: validación de consistencia, tratamiento de nulos y outliers, normalización y limpieza con enfoque en la integridad de la información
 
-- Automatización con inteligencia artificial: uso de IA para documentar procesos, asistir en tareas repetitivas y generar código, lo que permite centrar el esfuerzo en el análisis de valor
+- **Automatización con inteligencia artificial**: uso de IA para documentar procesos, asistir en tareas repetitivas y generar código, lo que permite centrar el esfuerzo en el análisis de valor
 
-- Mentalidad orientada a la optimización y al rendimiento: uso de funciones en python (optimización del tiempo), buenas prácticas en PowerBI y SQL (mejora del rendimiento).
+- Mentalidad orientada a la **optimización** y al **rendimiento**: uso de funciones en python (optimización del tiempo), buenas prácticas en PowerBI y SQL (mejora del rendimiento).
 
-- Análisis exploratorio de datos (EDA)
+- **Análisis exploratorio** de datos (EDA)
 
-- Aplicación de clustering (segmentación de clientes) con sklearn para el ajuste de estrategias de marketing y personalización de ofertas
+- Aplicación de **clustering (segmentación de clientes) con sklearn** para el ajuste de estrategias de marketing y personalización de ofertas
 
-- Diseño e implementación de una base de datos relacional en PostgreSQL
+- **Diseño e implementación de una base de datos relacional en PostgreSQL**
 
-- Consultas SQL orientadas al negocio
+- **Consultas SQL** orientadas al negocio
 
-- Visualización y storytelling con Power BI
+- **Visualización** y **storytelling** con Power BI
 
-- ETL básico y modelado de datos
+- **ETL básico y modelado de datos**
 
 de datos a acciones de negocio: tabla acciones de negocio
 
-Si se implementan las acciones de negocio propuestas, Halcón Viajes podría reducir su tasa de cancelación hasta en un 10%, gracias a la optimización de las promociones, la incentivación de la compra anticipada y la migración de clientes hacia paquetes más completos.
+Si se implementan las acciones de negocio propuestas, Halcón Viajes podría **reducir su tasa de cancelación hasta en un 10%**, gracias a la optimización de las promociones, la incentivación de la compra anticipada y la migración de clientes hacia paquetes más completos.
 
-Además, la mejora de la experiencia en los canales de reserva, como la app móvil y los agentes de viajes, podría aumentar la satisfacción del cliente en un 20%, reduciendo los comentarios negativos asociados a problemas de reserva y mal servicio.
+Además, la mejora de la experiencia en los canales de reserva, como la app móvil y los agentes de viajes, podría **aumentar la satisfacción del cliente en un 20%**, reduciendo los comentarios negativos asociados a problemas de reserva y mal servicio.
 Como resultado, se espera una mejora significativa en la retención de clientes, y un fortalecimiento de la fidelización y experiencia de los viajeros.
 
 ---
@@ -97,41 +97,41 @@ Y este proyecto no solo ofrece los datos que explican el problema, sino también
 
 ### Herramientas utilizadas
 
-- Python (Pandas, Numpy, Scikit-learn, psycopg2, matplotlib, seaborn)
+- **Python** (Pandas, Numpy, Scikit-learn, psycopg2, matplotlib, seaborn)
 
-- SQL (PostgreSQL)
+- **SQL** (PostgreSQL)
 
-- Power BI (Storytelling, Power Query, modelado, DAX)
+- **Power BI** (Storytelling, Power Query, modelado, DAX)
 
-- Inteligencia artificial (ChatGPT, algoritmos de aprendizaje)
+- **Inteligencia artificial** (ChatGPT, algoritmos de aprendizaje)
 
-- GitHub (mantenimiento en la nube)
+- **GitHub** (mantenimiento en la nube)
 
-- Figma (creación de plantillas para PowerBI)
+- **Figma** (creación de plantillas para PowerBI)
 
-- Jupyter Notebook
+- **Jupyter Notebook**
 
 ### ¿Cómo lo he hecho?
 
-Antes de comenzar el análisis, dediqué un tiempo a estudiar el contexto de la empresa, comprender sus necesidades reales, identificar claramente el problema y formular múltiples preguntas de negocio orientadas a posibles soluciones. También analicé los datos disponibles para asegurarme de que respondían a esos objetivos y ofrecían el potencial necesario para extraer valor.
+Antes de comenzar el análisis, dediqué un tiempo a **estudiar el contexto de la empresa, comprender sus necesidades reales, identificar claramente el problema y formular múltiples preguntas de negocio** orientadas a posibles soluciones. También analicé los datos disponibles para asegurarme de que respondían a esos objetivos y ofrecían el potencial necesario para extraer valor.
 
 **Python**: Limpieza, validación, análisis exploratorio y K-means Clustering.
 
-Para optimizar tanto el tiempo como el rendimiento del desarrollo, el código ha sido modularizado en funciones dentro de un archivo src, que se importa en los notebooks correspondientes. Esto evita la duplicación de código y facilita su mantenimiento y reutilización.
+Para optimizar tanto el tiempo como el rendimiento del desarrollo, el código ha sido modularizado en funciones dentro de un archivo src, que se importa en los notebooks correspondientes. Esto **evita la duplicación de código y facilita su mantenimiento y reutilización.**
 
-Comencé trabajando con Python, no solo para cargar y explorar los datos, sino para asegurarme de que todo lo que analizara fuera válido y coherente. Validé la calidad del dataset, normalicé formatos, detecté y traté outliers según el contexto del negocio, y gestioné los valores nulos de forma inteligente. Esto no solo garantizó integridad técnica, sino también coherencia con la realidad operativa de la empresa.
+Comencé trabajando con Python, no solo para cargar y explorar los datos, sino para asegurarme de que todo lo que analizara fuera válido y coherente. **Validé la calidad del dataset, normalicé formatos, detecté y traté outliers según el contexto del negocio, y gestioné los valores nulos de forma inteligente**. Esto no solo garantizó integridad técnica, sino también coherencia con la realidad operativa de la empresa.
 
-Durante el proceso de validación detecté errores y posibles inconsistencias lógicas en la importación de datos relacionados con las columnas temporales, por lo que realicé ajustes y correcciones justificadas para mejorar la consistencia y calidad de los datos para su correcto análisis.
+Durante el proceso de validación **detecté errores y posibles inconsistencias lógicas en la importación de datos** relacionados con las columnas temporales, por lo que realicé ajustes y correcciones justificadas para **mejorar la consistencia y calidad de los datos** para su correcto análisis.
 
-Además, realicé un análisis exploratorio y detallado, tanto univariado como multivariado, relacionando variables clave para detectar patrones y descubrir insights relevantes. Estas relaciones fueron fundamentales encontrar oportunidades reales de mejora.
+Además, realicé un análisis exploratorio y detallado, tanto univariado como multivariado, **relacionando variables clave para detectar patrones y descubrir insights relevantes**. Estas relaciones fueron fundamentales encontrar oportunidades reales de mejora.
 
-Por último, se implementó un algoritmo de aprendizaje (K-means Clustering), el cual ha permitido segmentar a los clientes en grupos con características y comportamientos de compra similares, lo que ha proporcionado insights valiosos para personalizar ofertas y ajustar estrategias de marketing basadas en el comportamiento de los clientes.
+Por último, se implementó un **_algoritmo de aprendizaje (K-means Clustering)_**, el cual ha permitido segmentar a los clientes en grupos con características y comportamientos de compra similares, lo que ha proporcionado insights valiosos para **personalizar ofertas y ajustar estrategias de marketing basadas en el comportamiento de los clientes.**
 
 **SQL (PostgreSQL)**:
-Diseñé un modelo relacional en PostgreSQL que reflejara correctamente las relaciones entre las tablas del dataset. Una vez preparados y cargados los datos desde Python, comencé a realizar consultas SQL específicas para responder preguntas de negocio clave. Cada consulta estaba pensada para convertir información en decisiones prácticas y reproducir los principales insights del análisis exploratorio realizado previamente en Python.
+**Diseñé un modelo relacional en PostgreSQL** que reflejara correctamente las relaciones entre las tablas del dataset. Una vez preparados y cargados los datos desde Python, comencé a realizar **consultas SQL** específicas para responder preguntas de negocio clave. Cada consulta estaba pensada para convertir información en decisiones prácticas y reproducir los principales insights del análisis exploratorio realizado previamente en Python.
 
 **Power BI**:
-En Power BI integré los datos directamente desde PostgreSQL, manteniendo la estructura relacional optimizada y evitando pasos intermedios innecesarios. Validé los datos en Power Query, creé relaciones en el modelado y desarrollé medidas DAX personalizadas para los KPIs seleccionados, así como una tabla calendario para el análisis temporal detallado.
+En Power BI integré los datos directamente desde PostgreSQL, manteniendo la estructura relacional optimizada y evitando pasos intermedios innecesarios. **Validé los datos en Power Query, creé relaciones en el modelado y desarrollé medidas DAX personalizadas para los KPIs seleccionados, así como una tabla calendario** para el análisis temporal detallado.
 
 Se desarrollaron cuatro dashboards principales:
 
@@ -143,17 +143,17 @@ Se desarrollaron cuatro dashboards principales:
 
 - Análisis final: KPIs clave, mayores patrones de cancelación, tabla de acciones de negocio y recomendaciones estratégicas.
 
-Se aplicó storytelling visual en los títulos de cada gráfico para guiar al lector, y se utilizó la paleta de colores corporativa.
+Se aplicó **storytelling visual** en los títulos de cada gráfico para guiar al lector, y se utilizó la paleta de colores corporativa.
 
 Construí los dashboards con foco en:
 
-- Responder directamente a preguntas clave del negocio
-- Mostrar insights claros, rápidos y accionables
-- Aplicar principios de visualización, jerarquía visual y atributos preatentivos para destacar los puntos más críticos.
+- **Responder directamente a preguntas clave del negocio**
+- **Mostrar insights claros, rápidos y accionables**
+- **Aplicar principios de visualización, jerarquía visual y atributos preatentivos para destacar los puntos más críticos.**
 
-El diseño fue previamente esbozado fuera de Power BI (Figma) para garantizar un rendimiento óptimo y una experiencia de usuario fluida. Incorporé marcadores para alternar visualizaciones y para la navegación entre páginas, tooltips personalizados para mostrar información contextual sin saturar el panel, y visuales de alerta para indicadores críticos. El resultado es un dashboard preparado tanto para usuarios técnicos como perfiles de negocio, que facilita la toma de decisiones desde el primer vistazo.
+El diseño fue previamente esbozado fuera de Power BI (Figma) para garantizar un **rendimiento óptimo y una experiencia de usuario fluida**. Incorporé **marcadores** para alternar visualizaciones y para la navegación entre páginas, **tooltips** personalizados para mostrar información contextual sin saturar el panel, y **visuales de alerta para indicadores críticos**. El resultado es un **dashboard preparado tanto para usuarios técnicos como perfiles de negocio, que facilita la toma de decisiones desde el primer vistazo.**
 
-A lo largo de todo el proceso también integré automatizaciones para tareas repetitivas, desde la generación asistida de funciones en Python hasta el uso de inteligencia artificial para documentar automáticamente cada paso, lo que permitió ahorrar tiempo y centrar los esfuerzos en descubrir oportunidades de negocio.
+A lo largo de todo el proceso también integré **automatizaciones para tareas repetitivas**, desde la generación asistida de funciones en Python hasta el uso de inteligencia artificial para documentar automáticamente cada paso, lo que permitió **ahorrar tiempo y centrar los esfuerzos en descubrir oportunidades de negocio.**
 
 Todo el desarrollo técnico de este proyecto está documentado paso a paso en mi repositorio de GitHub.
 Puedes acceder al código completo aquí:
