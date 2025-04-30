@@ -128,10 +128,10 @@ Además, realicé un análisis exploratorio y detallado, tanto univariado como m
 Por último, se implementó un **_algoritmo de aprendizaje (K-means Clustering)_**, el cual ha permitido segmentar a los clientes en grupos con características y comportamientos de compra similares, lo que ha proporcionado insights valiosos para **personalizar ofertas y ajustar estrategias de marketing basadas en el comportamiento de los clientes.**
 
 **SQL (PostgreSQL)**:
-**Diseñé un modelo relacional en PostgreSQL** que reflejara correctamente las relaciones entre las tablas del dataset. Una vez preparados y cargados los datos desde Python, comencé a realizar **consultas SQL** específicas para responder preguntas de negocio clave. Cada consulta estaba pensada para convertir información en decisiones prácticas y reproducir los principales insights del análisis exploratorio realizado previamente en Python.
+**Diseñé un modelo relacional en PostgreSQL** que reflejara correctamente las relaciones entre las tablas del dataset. **Una vez preparados y cargados los datos desde Python**, comencé a realizar **consultas SQL** específicas para responder preguntas de negocio clave. Cada consulta estaba pensada para convertir información en decisiones prácticas y reproducir los principales insights del análisis exploratorio realizado previamente en Python.
 
 **Power BI**:
-En Power BI integré los datos directamente desde PostgreSQL, manteniendo la estructura relacional optimizada y evitando pasos intermedios innecesarios. **Validé los datos en Power Query, creé relaciones en el modelado y desarrollé medidas DAX personalizadas para los KPIs seleccionados, así como una tabla calendario** para el análisis temporal detallado.
+En Power BI **integré los datos directamente desde PostgreSQL**, manteniendo la estructura relacional optimizada y evitando pasos intermedios innecesarios. **Validé los datos en Power Query, creé relaciones en el modelado y desarrollé medidas DAX personalizadas para los KPIs seleccionados, así como una tabla calendario** para el análisis temporal detallado.
 
 Se desarrollaron cuatro dashboards principales:
 
