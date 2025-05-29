@@ -132,6 +132,14 @@ Además, al optimizar la experiencia en los canales de reserva más problemátic
 Lo que empezó como un problema difuso de cancelaciones terminó revelando una oportunidad clara de negocio.
 Y este proyecto no solo ofrece los datos que explican el problema, sino también las soluciones para resolverlo, con impacto económico directo y medible.
 
+## Visualización de resultados clave
+
+Se muestra aquí una de las páginas clave del dashboard desarrollado en Power BI (detallado más adelante), diseñada para visualizar los principales patrones de cancelación, analizar el comportamiento de los usuarios y detectar áreas de mejora en la estrategia comercial.
+
+![Captura de pantalla 2025-05-29 181453](https://github.com/user-attachments/assets/f96b0e98-2b1d-4089-9241-a488701766d3)
+
+Gracias al análisis realizado, esta visualización identifica los perfiles con mayor probabilidad de cancelar y permite orientar decisiones estratégicas basadas en datos reales.
+
 ## Desarrollo técnico del análisis
 
 ### Tecnologías utilizadas
