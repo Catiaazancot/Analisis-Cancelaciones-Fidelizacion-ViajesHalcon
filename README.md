@@ -52,27 +52,27 @@ Además, la mejora de la experiencia en los canales de reserva, como la app móv
 
 ### Habilidades demostradas en este proyecto
 
-Conciencia del impacto en negocio: foco constante en la mejora de la eficiencia operativa y aumento de la retención de clientes.
+- Conciencia del impacto en negocio: foco constante en la mejora de la eficiencia operativa y aumento de la retención de clientes.
 
-Pensamiento estratégico y comprensión del negocio: Priorizo una comprensión profunda del contexto, las métricas clave y los objetivos empresariales antes de iniciar cualquier análisis, asegurando que los resultados sean relevantes y aporten valor real.
+- Pensamiento estratégico y comprensión del negocio: Priorizo una comprensión profunda del contexto, las métricas clave y los objetivos empresariales antes de iniciar cualquier análisis, asegurando que los resultados sean relevantes y aporten valor real.
 
-Buenas prácticas en calidad, validación y gobernanza del dato: validación de consistencia, tratamiento de nulos y outliers, normalización y limpieza con enfoque en la integridad de la información.
+- Buenas prácticas en calidad, validación y gobernanza del dato: validación de consistencia, tratamiento de nulos y outliers, normalización y limpieza con enfoque en la integridad de la información.
 
-Automatización con inteligencia artificial: uso de IA para documentar procesos, asistir en tareas repetitivas y generar código, lo que permite centrar el esfuerzo en el análisis de valor.
+- Automatización con inteligencia artificial: uso de IA para documentar procesos, asistir en tareas repetitivas y generar código, lo que permite centrar el esfuerzo en el análisis de valor.
 
-Mentalidad orientada a la optimización y al rendimiento: uso de funciones en python (optimización del tiempo), buenas prácticas en PowerBI y SQL (mejora del rendimiento).
+- Mentalidad orientada a la eficiencia y al rendimiento: optimizo procesos mediante funciones en Python y aplico buenas prácticas en Power BI y SQL para mejorar tiempos de carga, eficiencia de consultas y experiencia de uso.
 
-Análisis exploratorio de datos (EDA).
+- Análisis exploratorio de datos (EDA).
 
-Aplicación de clustering (segmentación de clientes) con Scikit-learn para el ajuste de estrategias de marketing y personalización de ofertas.
+- Aplicación de clustering (segmentación de clientes) con Scikit-learn para el ajuste de estrategias de marketing y personalización de ofertas.
 
-Diseño e implementación de una base de datos relacional en PostgreSQL.
+- Diseño e implementación de una base de datos relacional en PostgreSQL.
 
-Consultas SQL orientadas al negocio.
+- Consultas SQL orientadas al negocio.
 
-Visualización y storytelling con Power BI.
+- Visualización y storytelling con Power BI.
 
-ETL básico y modelado de datos.
+- ETL básico y modelado de datos.
 
 ## Historia del Proyecto Halcón Viajes: Reservas que vuelan... y se pierden
 
@@ -148,7 +148,7 @@ Y este proyecto no solo ofrece los datos que explican el problema, sino también
 
 - Figma (creación de plantillas para PowerBI)
 
-- - Visual Studio Code (código y documentación)
+- Visual Studio Code (código y documentación)
 
 ### Fases del análisis
 
