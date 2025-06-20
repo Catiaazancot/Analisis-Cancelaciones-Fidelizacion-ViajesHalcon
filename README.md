@@ -2,7 +2,9 @@
 
 ## Del dato a la acción: patrones y decisiones claves
 
-A partir del análisis, se identificaron patrones clave que justifican las acciones de negocio propuestas a continuación:
+Halcón Viajes es una empresa con una plataforma de reservas moderna y funcional, donde cada mes miles de personas contratan vuelos, hoteles y paquetes turísticos. Sin embargo, en los últimos meses se ha detectado un aumento preocupante en el número de cancelaciones, sin una causa aparente clara.
+
+Para comprender mejor este fenómeno, se llevó a cabo un análisis exhaustivo de los datos. Este permitió **identificar patrones clave** en el comportamiento de los clientes que respaldan las siguientes **acciones estratégicas** que la empresa podría implementar para reducir la tasa de cancelación y mejorar la retención.
 
 Patrones detectados:
 
@@ -46,33 +48,33 @@ Acciones de negocio propuestas a partir del análisis realizado:
 
 ### Resultados de negocio potenciales de las acciones propuestas
 
-Tal como se detalla más adelante, si se implementan las acciones de negocio propuestas, Halcón Viajes podría reducir su tasa de cancelación hasta en un 10%, lo que supone proteger más de 640.000 € anuales en ingresos que ahora se están perdiendo.
+Tal como se detalla más adelante, si se implementan las acciones de negocio propuestas, Halcón Viajes podría **reducir su tasa de cancelación hasta en un 10%**, lo que supone proteger **más de 640.000 €** anuales en ingresos que ahora se están perdiendo.
 
 Además, la mejora de la experiencia en los canales de reserva, como la app móvil y los agentes de viajes, podría aumentar la satisfacción del cliente en un 20%, y con ello, retener más viajeros, fidelizar más, y vender mejor.​
 
 ### Habilidades demostradas en este proyecto
 
-- Conciencia del impacto en negocio: foco constante en la mejora de la eficiencia operativa y aumento de la retención de clientes.
+- **Conciencia del impacto en negocio**: foco constante en la mejora de la eficiencia operativa y aumento de la retención de clientes.
 
-- Pensamiento estratégico y comprensión del negocio: Priorizo una comprensión profunda del contexto, las métricas clave y los objetivos empresariales antes de iniciar cualquier análisis, asegurando que los resultados sean relevantes y aporten valor real.
+- **Pensamiento estratégico y comprensión del negocio**: Priorizo una comprensión profunda del contexto, las métricas clave y los objetivos empresariales antes de iniciar cualquier análisis, asegurando que los resultados sean relevantes y aporten valor real.
 
-- Buenas prácticas en calidad, validación y gobernanza del dato: validación de consistencia, tratamiento de nulos y outliers, normalización y limpieza con enfoque en la integridad de la información.
+- **Buenas prácticas en calidad, validación y gobernanza del dato**: validación de consistencia, tratamiento de nulos y outliers, normalización y limpieza con enfoque en la integridad de la información.
 
-- Automatización con inteligencia artificial: uso de IA para documentar procesos, asistir en tareas repetitivas y generar código, lo que permite centrar el esfuerzo en el análisis de valor.
+- **Automatización con inteligencia artificial**: uso de IA para documentar procesos, asistir en tareas repetitivas y generar código, lo que permite centrar el esfuerzo en el análisis de valor.
 
-- Mentalidad orientada a la eficiencia y al rendimiento: optimizo procesos mediante funciones en Python y aplico buenas prácticas en Power BI y SQL para mejorar tiempos de carga, eficiencia de consultas y experiencia de uso.
+- **Mentalidad orientada a la eficiencia y al rendimiento**: optimizo procesos mediante funciones en Python y aplico buenas prácticas en Power BI y SQL para mejorar tiempos de carga, eficiencia de consultas y experiencia de uso.
 
-- Análisis exploratorio de datos (EDA).
+- **Análisis exploratorio de datos (EDA).**
 
-- Aplicación de clustering (segmentación de clientes) con Scikit-learn para el ajuste de estrategias de marketing y personalización de ofertas.
+- Aplicación de **clustering (segmentación de clientes) con Scikit-learn** para el ajuste de estrategias de marketing y personalización de ofertas.
 
-- Diseño e implementación de una base de datos relacional en PostgreSQL.
+- Diseño e implementación de una **base de datos relacional** en PostgreSQL.
 
-- Consultas SQL orientadas al negocio.
+- **Consultas SQL** orientadas al negocio.
 
-- Visualización y storytelling con Power BI.
+- **Visualización y storytelling con Power BI.**
 
-- ETL básico y modelado de datos.
+- **ETL básico y modelado de datos.**
 
 ## Historia del Proyecto Halcón Viajes: Reservas que vuelan... y se pierden
 
@@ -160,7 +162,7 @@ Gracias al análisis realizado, esta visualización identifica los perfiles con 
 
 ### Fases del análisis
 
-1. Comprensión del negocio y definición del objetivo
+**1. Comprensión del negocio y definición del objetivo**
 
 Antes de comenzar el análisis, dediqué un tiempo a estudiar el contexto de la empresa, comprender sus necesidades reales, identificar claramente el problema y formular múltiples preguntas de negocio orientadas a posibles soluciones.
 
@@ -168,7 +170,7 @@ También analicé los datos disponibles para asegurarme de que respondían a eso
 
 Esta fase me permitió conectar los datos con los objetivos estratégicos de la empresa, y plantear el análisis desde una perspectiva orientada a impacto real.
 
-2. Preparación, limpieza y validación de los datos (Python)
+**2. Preparación, limpieza y validación de los datos (Python)**
 
 Comencé trabajando con Python para cargar y explorar los datos, asegurando su calidad desde el inicio. Normalicé formatos, detecté y traté outliers según el contexto del negocio, y gestioné los valores nulos de forma estratégica.
 
@@ -176,17 +178,17 @@ También verifiqué la consistencia entre tablas y apliqué principios de valida
 
 Además, para optimizar el desarrollo, modularicé el código en funciones dentro de un archivo src, que importé en los notebooks correspondientes. Esta estructura permitió evitar duplicaciones, facilitar el mantenimiento y fomentar la reutilización eficiente del código.
 
-3. Análisis exploratorio y generación de insights
+**3. Análisis exploratorio y generación de insights**
 
 Realicé un análisis exploratorio detallado, tanto univariado como multivariado, centrándome en relaciones clave entre variables para detectar patrones relevantes y descubrir oportunidades de mejora. Para ello, utilicé gráficos de dispersión, matrices de correlación y gráficos de barras, con el fin de entender cómo ciertos factores influían en métricas clave, por ejemplo, la tasa de cancelación.
 
-4. Modelado predictivo (clustering)
+**4. Modelado predictivo (clustering)**
 
 Se implementó un algoritmo de aprendizaje no supervisado mediante K-means Clustering, que permitió segmentar a los clientes en grupos con características y comportamientos de compra similares. Esta segmentación proporcionó insights valiosos para personalizar ofertas, adaptar promociones y ajustar las estrategias de marketing según las preferencias y patrones de comportamiento detectados en cada grupo.
 
 Además, esta agrupación ofrece una base sólida para futuras acciones automatizadas, como campañas específicas por segmento, mejoras en la retención y una optimización más precisa del enfoque comercial.
 
-5. Modelado relacional y consultas en SQL (PostgreSQL)
+**5. Modelado relacional y consultas en SQL (PostgreSQL)**
 
 Diseñé un modelo relacional en PostgreSQL que reflejase con precisión la estructura lógica del dataset. Para ello, trabajé con relaciones uno a varios, definiendo correctamente claves primarias y foráneas para garantizar la integridad referencial y facilitar futuras consultas.
 
@@ -194,7 +196,7 @@ Una vez cargados los datos desde Python, elaboré consultas SQL específicas ori
 
 Estas consultas no solo reproducen los principales hallazgos del análisis exploratorio, sino que también permiten obtener respuestas reproducibles, escalables y directamente accionables desde la base de datos.
 
-6. Visualización y storytelling en Power BI
+**6. Visualización y storytelling en Power BI**
 
 Integré los datos desde PostgreSQL directamente en Power BI, manteniendo la estructura relacional optimizada. En Power Query validé los datos, establecí relaciones en el modelado y desarrollé medidas DAX personalizadas, así como una tabla calendario para análisis temporal detallado.
 
@@ -222,7 +224,7 @@ Incorporé marcadores, tooltips personalizados y visuales de alerta para destaca
 
 El resultado es un dashboard pensado tanto para perfiles técnicos como de negocio, que facilita la toma de decisiones desde el primer vistazo.​
 
-7. Cuantificación del impacto
+**7. Cuantificación del impacto**
 
 Para estimar el impacto de las acciones propuestas, se siguió un enfoque basado en datos, comparando patrones detectados en el análisis exploratorio con benchmarks del sector y aplicando métricas clave del negocio.
 
@@ -235,13 +237,13 @@ Para estimar el impacto de las acciones propuestas, se siguió un enfoque basado
 - Satisfacción del cliente (+20%):
   Dado que las cancelaciones están ligadas a problemas de reserva y mala atención, las mejoras de estas pueden elevar la satisfacción entre un 15% y un 25%. Se adopta una estimación prudente del 20% para este caso, según benchmarks del sector (McKinsey, 2023)
 
-8. Automatización e inteligencia artificial
+**8. Automatización e inteligencia artificial**
 
 Durante el proceso, integré automatizaciones para tareas repetitivas, desde la generación asistida de funciones en Python hasta el uso de inteligencia artificial (GPT)  para documentar, generar código y explicar errores.
 
 Esto permitió optimizar el tiempo y enfocar los esfuerzos en obtener insights relevantes y aplicables al negocio.
 
-9. Documentación del proyecto y datos
+**9. Documentación del proyecto y datos**
 
 Todo el desarrollo técnico del proyecto está documentado con más detalle en mi repositorio de GitHub, donde puede consultarse el código completo.
 🔗 (Repositorio vinculado a empresa ficticia)
@@ -264,9 +266,9 @@ Estas acciones forman parte de un conjunto más amplio de siete recomendaciones 
 
 La medida más prioritaria es la optimización de las promociones y paquetes, por su capacidad de generar resultados rápidos, reducir cancelaciones innecesarias y proteger ingresos de forma directa.
 
-Este proyecto demuestra cómo los datos, bien analizados, pueden convertirse en decisiones escalables que no solo resuelven problemas operativos, sino que transforman el modelo de negocio hacia una mayor sostenibilidad y enfoque en el cliente.
+**Este proyecto demuestra cómo los datos, bien analizados, pueden convertirse en decisiones escalables que no solo resuelven problemas operativos, sino que transforman el modelo de negocio hacia una mayor sostenibilidad y enfoque en el cliente.**
 
 ### Contacto
 
 - Enlace al portfolio
-- Email: catiaazancotc@gmail.com
+- Email: catalina.data1@gmail.com
