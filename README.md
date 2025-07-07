@@ -270,5 +270,8 @@ La medida más prioritaria es la optimización de las promociones y paquetes, po
 
 ### Contacto
 
-- Enlace al portfolio
-- Email: catalina.data1@gmail.com
+Portafolio: https://catiaazancotc.wixsite.com/catalina-azancot
+
+Linkedin: https://www.linkedin.com/in/catalina-data/
+
+Email: catalina.data1@gmail.com
